@@ -62,6 +62,7 @@ const clearInput= () =>{
 //clear display
 const clearDisplay= () =>{
     document.getElementById('song-container').innerHTML="";
+    document.getElementById('song-lyrics').innerText="";
 }
 //display Error 
 const displayError = error=>{
